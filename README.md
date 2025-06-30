@@ -4,6 +4,6 @@
 ## 📍 개발기간
 2022.10.10 ~ 2022.12.01
 ## 📍 발표자료
-[PPT](./MyLittlePharmacy.pptx)
+🔗 [PPT](./MyLittlePharmacy.pptx)
 ## 📍 데모 영상
 🔗 https://youtu.be/CUEVW_7xw54
