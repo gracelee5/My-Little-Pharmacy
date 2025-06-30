@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/idEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="이메일"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <EditText
+            android:id="@+id/pwEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="비밀번호"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/pwCheckEditText"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="비밀번호재확인"
+            android:inputType="textPassword" />
+
+
+        <Button
+            android:id="@+id/btnJoin"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/login_btn"
+            android:text="회원가입"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnRst"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/login_btn"
+            android:text="비밀번호 재설정"
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:text="1) 공백은 비밀번호로 사용할 수 없습니다."
+            android:textAlignment="center"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/idText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="2) 숫자만으로 이루어진 경우 사용할 수 없습니다."
+            android:textAlignment="center"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/idText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="3) 동일한 문자를 많이 포함한 경우 사용할 수 없습니다."
+            android:textAlignment="center"
+            android:textSize="15dp" />
+        <TextView
+            android:id="@+id/idText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="4) 영문, 숫자, 기호의 조합으로 이루어져야 합니다."
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+
+
+    </LinearLayout>
+</FrameLayout>

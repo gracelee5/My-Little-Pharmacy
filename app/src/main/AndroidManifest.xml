@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.sungshin.mlp_con">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/mlp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/mlp"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MLP_con">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCfzyeymNRuHuzxWClcilC2Br4TaEH3FoM"/>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SubActivity"></activity>
+        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".AddActivity"></activity>
+        <activity android:name=".AlarmActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name= ".findPassword"></activity>
+        <activity android:name= ".RecommendActivity"></activity>
+        <activity android:name=".RecommendItemMain"></activity>
+        <activity android:name=".RecommendItemMain2"></activity>
+        <activity android:name=".RecommendItemMain3"></activity>
+        <activity android:name=".RecommendItemMain4"></activity>
+        <activity android:name=".RecommendItemMain5"></activity>
+        <activity android:name=".RecommendItemMain6"></activity>
+        <activity android:name=".RecommendItemMain7"></activity>
+        <activity android:name=".RecommendItemMain8"></activity>
+        <activity android:name=".CheckboxChecking"></activity>
+
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <service
+            android:name=".Music"
+            android:enabled="true" />
+    </application>
+
+</manifest>

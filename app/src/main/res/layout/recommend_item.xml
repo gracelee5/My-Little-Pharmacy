@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" "
+            android:textColor="@color/black"
+            android:textSize="3dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="건강 고민을 해결해 드립니다"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="26dp"
+            android:layout_margin="4dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="버튼을 누르시면 해당하는 영양제 페이지로 이동합니다."
+            android:textSize="16dp"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/re1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/a1"
+            android:text="    피부 건강"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/re2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/b2"
+            android:text="    눈 건강"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/re3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/g7"
+            android:text="    간 건강"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/re4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/c3"
+            android:text="    뼈 건강"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/re5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/d4"
+            android:text="    스트레스"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/re6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/e5"
+            android:text="    피로"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/re7"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/f6"
+            android:text="    면역력"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/re8"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_button"
+            android:drawableLeft="@drawable/h8"
+            android:text="    종합 영양제"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+</ScrollView>

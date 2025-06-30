@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "407221891299",
+    "project_id": "mylittlepharmacy-1b5f4",
+    "storage_bucket": "mylittlepharmacy-1b5f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407221891299:android:d51ae31226175fe5e4d5d6",
+        "android_client_info": {
+          "package_name": "edu.sungshin.mlp_con"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407221891299-mh96ee9ee9jaigs676p0n2b1g2dh3etg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.sungshin.mlp_con",
+            "certificate_hash": "374e0f48e8078608d5ff54cc550d0c4eb8b07ac0"
+          }
+        },
+        {
+          "client_id": "407221891299-eoptec7e83at1ic47m6p4o5o699bf8rb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmyfycfMNnw-gZWDo592amJxh6hHWAGiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407221891299-eoptec7e83at1ic47m6p4o5o699bf8rb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
